@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1> Kulla Bhargava Ram </h1> <!---->
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am Kulla Bhargava Ram,Currently working at UST global Trivandrum as software developer 1.</p> <!--  -->
-    </section>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Kulla Bhargava Ram - Aspiring Developer</p>
+  </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Developing Tic Tac Toe game In Machine Learning Using Python</h3> <!-- Replace 'Project Name 1' with your project name -->
-                <p>This project provides dynamic and challenging experience to the user while playing the game.</p> <!-- Replace with your project description -->
-          
-            </li>
-            <li>
-                <h3>Bucketing and Partitioning the Data to Access Data with Low Latency</h3> <!-- Replace 'Project Name 2' with your project name -->
-                <p>In this project we will partion the data to access data fastly.</p> <!-- Replace with your project description -->
-                
-            </li>
-        </ul>
-    </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am an aspiring developer passionate about creating impactful solutions through technology. I enjoy coding and continuously learning new skills to grow as a developer.</p>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:youremail@example.com">kullabhargavaram@gmail.com</a></p> <!-- Replace with your email -->
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/kulla-bhargava-ram-537007256">Your LinkedIn Profile</a></p> <!-- Replace with your LinkedIn profile -->
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li class="project-item"><strong>Project 1:</strong> Developing Tic Tac Toe Game In Machine Learning Using Python </li>
+      <p>I have Developed Tic Tac Toe Game that provides Dynamic and challenging Experience for the User while playing the Game.</p>
+      <li class="project-item"><strong>Project 2:</strong> Bucketing And Partitioning Data To Access Data With Low Latency </li>
+      <p>In this project we will Partition the Data to Acess the Data Fastly without any Latency</p>
 
-    <footer>
-        <p>&copy; 2025 Kulla Bhargava Ram. All rights reserved.</p> <!-- Replace 'Your Name' with your actual name -->
-    </footer>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/kullabhargavaram@gmail.com" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="https://github.com/Bhargavkulla" target="_blank">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/kulla-bhargava-ram-537007256" target="_blank">LinkedIn</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
